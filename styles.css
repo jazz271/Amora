@@ -127,13 +127,13 @@ header .contenedor-texto {
     margin: 120px 0;
 }
 
-header .contenedor-texto .texto {
+/* header .contenedor-texto .texto {
     border: 2px solid rgba(63, 124, 204, 0.5);
     border-radius: 3px;
     display: inline-block;
     text-align: center;
     padding: 40px 40px;
-}
+} */
 
 header .contenedor-texto .texto h1,
 header .contenedor-texto .texto h2 {
