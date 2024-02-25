@@ -1,0 +1,169 @@
+body {
+    background: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin: 0px;
+
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+/*Aca podemos cambiar el color*/
+header {
+    background: linear-gradient(180deg, rgba(28, 219, 124, 0.8) 0%, rgba(255, 210, 249, 0.64) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 600px;
+
+
+}
+
+.main .contenedor {
+    overflow: visible;
+
+}
+
+.main .acerca-de {
+    text-align: center;
+
+}
+
+.main .acerca-de .foto {
+    margin-top: -60px;
+
+}
+
+.main .acerca-de .foto img {
+    vertical-align: top;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.main .acerca-de .texto {
+    color: #000000;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 30px;
+    width: 80%;
+    margin: 40px auto 60px auto;
+}
+
+/*En color podemos cambiar el colo de el titulo de Acerca de..*/
+.main .acerca-de .texto .titulo {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #0f130e;
+    text-align: center;
+
+}
+
+.main .acerca-de .texto .bold {
+    color: #0d131a;
+    text-decoration: underline;
+}
+
+
+
+footer .redes-sociales {
+    background: #4090e0;
+    padding: 60px 0;
+
+}
+
+footer .redes-sociales .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+}
+
+.redes-sociales img {
+    width: 40px;
+    /* Ajusta el ancho según sea necesario */
+    height: 40px;
+    /* Ajusta la altura según sea necesario */
+}
+
+
+header .menu {
+    margin: 40px 0;
+    text-align: right;
+}
+
+/*Aca podemos cambiar el color de Mi instagram en color*/
+header .menu a {
+    margin: 0 20px;
+    color: #fff;
+    padding-bottom: 9px;
+    font-size: 1em;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+header .menu a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+header .contenedor-texto {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 120px 0;
+}
+
+header .contenedor-texto .texto {
+    border: 2px solid rgba(63, 124, 204, 0.5);
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    padding: 40px 40px;
+}
+
+header .contenedor-texto .texto h1,
+header .contenedor-texto .texto h2 {
+    color: #ece6e6;
+    font-weight: 400;
+
+}
+
+header .contenedor-texto .texto .nombre {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 50px;
+
+}
+
+header .contenedor-texto .texto .profesion {
+    font-size: 20px;
+    line-height: 25px;
+
+
+}
+
+a {
+    color: #11d8a6;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0px;
+    border-radius: 3px;
+    font-size: 30px;
+    margin: 0px;
+}
